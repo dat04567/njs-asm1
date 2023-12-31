@@ -44,6 +44,10 @@ function reducer(state, action) {
             query: action.query,
          };
       }
+      default :
+      {
+         return {...state}
+      }
    }
 }
 
